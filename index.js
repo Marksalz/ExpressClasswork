@@ -29,6 +29,7 @@ server.get('/test', async (req, res) => {
     }
     else {
         res.send(JSON.stringify({ result: "fail" }));
+        
     }
 });
 
